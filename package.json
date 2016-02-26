@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "xo",
-    "test": "npm run lint"
+    "test": "tape test.js"
   },
   "keywords": [
     "callback",
@@ -34,6 +34,7 @@
     "util"
   ],
   "devDependencies": {
+    "tape": "^4.4.0",
     "xo": "*"
   }
 }
