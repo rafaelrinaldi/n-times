@@ -1,4 +1,4 @@
-# n-times
+# n-times [![Build Status](https://semaphoreci.com/api/v1/rafaelrinaldi/n-times/branches/master/badge.svg)](https://semaphoreci.com/rafaelrinaldi/n-times)
 
 > Run a function 𝘕 times
 
