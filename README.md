@@ -12,7 +12,7 @@ $ npm install n-times --save
 
 ```js
 const times = require('n-times');
-const beep = bop => { console.log(bop); };
+const beep = bop => console.log(bop);
 
 times(3, beep, 'yadda');
 // => yadda
@@ -37,12 +37,11 @@ Number of times to run a function.
 Type: `function`  
 
 Function to run N times.  
-Receives the value of current iteration as the last parameter.
+Receives the value of current iteration as the last argument.
 
 #### `...args`
 
 Type: `arguments`  
-Default: `false`  
 
 List of arguments to pass to `fn` on every call.
 

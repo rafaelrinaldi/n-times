@@ -31,6 +31,7 @@
     "n",
     "time",
     "times",
+    "n-times",
     "util"
   ],
   "devDependencies": {
