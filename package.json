@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "xo",
-    "test": "tape test.js"
+    "test": "npm run lint && tape test.js"
   },
   "keywords": [
     "callback",
