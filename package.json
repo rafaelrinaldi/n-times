@@ -1,0 +1,39 @@
+{
+  "name": "n-times",
+  "version": "1.0.0",
+  "description": "Run a function N times",
+  "license": "MIT",
+  "repository": "rafaelrinaldi/n-times",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/n-times/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/n-times#readme",
+  "author": {
+    "name": "Rafael Rinaldi",
+    "email": "rafael@rinaldi.io",
+    "url": "rinaldi.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "xo": {
+    "space": true
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "callback",
+    "fn",
+    "function",
+    "helper",
+    "n",
+    "time",
+    "times",
+    "util"
+  ],
+  "devDependencies": {
+    "xo": "*"
+  }
+}
